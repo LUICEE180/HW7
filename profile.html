@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandar's Profile</title>
+    <link rel="stylesheet" href="body .css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="profile">
+            <div class="left">
+                <img src="Jerry.jpg" alt="profile picture">
+
+                <h1 id="name-display">SANDER</h1>
+                <input type="text" id="name-input" class="hidden" value = "SANDER">
+                <button id="edit-button">edit</button>
+                <div class="about">
+                    <h3>About Me</h3>
+                    <p>I am a freshman in the Department of Management Information Systems at National Chengchi University. I am very interested in studying programming and computer science fundamentals. I have experience in using Java, HTML, CSS, JavaScript, and Python.</p >
+                </div>
+                <div class="contact">
+                    <h3>Contact</h3>
+                    <p>113306016@nccu.edu.tw</p >
+                    <img src="政大logo-2.jpg" alt="School Logo" class="school-logo">
+                </div>
+            </div>
+            <div class="right">
+                <div class="education">
+                    <h3>Education</h3>
+                    <p>2023 - National Chengchi University, Department of MIS<br>  now - Computer Science</p >
+                    <p>2020 - Taipa Municipal High School<br>2023   Participated in computer science club</p >
+                    <p>2017 - Middle School Graduation<br>2021   Started developing an interest in computer science</p >
+                </div>
+                <div class="homework">
+                    <h3>Homework List</h3>
+                    <ul>
+                        <li>HW1 - <a href="https://github.com/LUICEE180/HW1.git ">https://github.com/LUICEE180/HW1.git</a ></li>
+                        <li>HW2 - <a href="https://github.com/LUICEE180/HW2.git">https://github.com/LUICEE180/HW2.git</a ></li>
+                        <li>HW3 - <a href="https://github.com/LUICEE180/HW3.git">https://github.com/LUICEE180/HW3.git</a ></li>
+                    </ul>
+                </div>
+                <div class="favorite-music">
+                    <h3>Favorite Music</h3>
+                    <div class="album-covers"
+                    id="album-covers">
+                         <a href="https://youtu.be/d_HlPboLRL8?si=7XY_cZjVCKzMLPbA" target="_blank"><img src="image_副本.jpg" alt="album1"><div class="lable">Runaway</div></a >
+                        <a href="https://youtu.be/TfkP5ubz1z4?si=WaIiwCo8fvDuUTsH" target="_blank"><img src="image_副本.jpg" alt="album2"><div class="lable">Despacito</div></a >
+                        <a href="https://youtu.be/8xg3vE8Ie_E?si=ibFdedMndbRNX65D" target="_blank"><img src="image_副本.jpg" alt="album3"><div class="lable">Love Story</div></a >
+                        <a href="https://youtu.be/jpqV3dzYOgk?si=5YC938cTqzY8Ief_" target="_blank"><img src="image_副本.jpg" alt="album4"><div class="lable">Try everything</div></a >
+
+                    </div>
+                    <div class="add-music">
+                        <button id="add-button">add</button><div id="add-music-form" class="hidden"><input type="text" id="music-url" placeholder="https://www.youtube.com/watch?v=..."><input type="text" id="music-lable" placeholder="Song Name">
+                            <button id="submit-music">Submit</button></div>
+                    </div>
+                    <div class="note">
+                    <p>These are my favorite songs because listening to music relaxes me</p >
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="function.js">
+    </script>
+</body>
+</html>
